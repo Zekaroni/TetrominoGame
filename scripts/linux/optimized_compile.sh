@@ -4,4 +4,5 @@ g++ main.cpp src/GameLogic.cpp src/GameController.cpp \
     -ffunction-sections -fdata-sections \
     -Wl,--gc-sections \
     -fno-exceptions -fno-rtti -flto \
-    $(pkg-config --cflags --libs raylib)
+    $(pkg-config --cflags --libs raylib) \
+    -lX11
