@@ -6,3 +6,4 @@ g++ main.cpp src/GameLogic.cpp src/GameController.cpp \
     -fno-exceptions -fno-rtti -flto \
     $(pkg-config --cflags --libs raylib) \
     -lX11
+
